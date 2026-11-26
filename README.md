@@ -1,5 +1,7 @@
 # NYU Earth Systems Institute: methods, code and data
-'https://earthsystemsinstitute.nyu.edu/' 
+
+Website https://earthsystemsinstitute.nyu.edu/
+
 An interactive list of the algorithms, open-source code and datasets from the Institute's affiliated faculty, filterable by research area, type and faculty member.
 
 ## Files
