@@ -15,7 +15,7 @@
   SHOW_UNVERIFIED: set to false to hide rows with checked = 0.
 */
 window.ESI_DATA = {
-  SHOW_UNVERIFIED: true,
+  SHOW_UNVERIFIED: false,
 
   FACULTY: {
     adcroft:["Alistair Adcroft","https://engineering.nyu.edu/faculty/alistair-adcroft"],
