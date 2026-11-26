@@ -7,19 +7,19 @@
 <meta name="description" content="Algorithms, open-source code and datasets from the affiliated faculty of the NYU Earth Systems Institute.">
 <style>
 :root{color-scheme:light;
-  --page:#ffffff; --bar:#57068C;
+  --page:#ffffff; --brand:#57068C; --page-line:#e4e2e7;
 }
 html{background:var(--page)}
 body{margin:0;background:var(--page);font-family:"Helvetica Neue",Helvetica,Arial,system-ui,sans-serif}
-.esi-bar{background:var(--bar);color:#fff;padding:12px 20px}
-.esi-bar a{color:#fff;text-decoration:none;font-weight:600}
+.esi-bar{background:var(--page);border-bottom:1px solid var(--page-line);padding:12px 20px}
+.esi-bar a{color:var(--brand);text-decoration:none;font-weight:600}
 .esi-bar a:hover{text-decoration:underline}
-.esi-bar a:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.esi-bar a:focus-visible{outline:2px solid var(--brand);outline-offset:3px}
 .esi-wrap{padding:32px 20px 0}
 
 #esi-resources{
-  --violet:#57068C; --violet-deep:#3d0563; --tint:#f4eef8; --ink:#231a2b;
-  --muted:#5f566a; --line:#e3dae9; --surface:#ffffff; --field:var(--field); --body:#3b3244; --link-line:var(--link-line); --on-violet:#e8dcf1; --method:#57068C; --code:#0d6b63; --data:#1d4f99;
+  --violet:#2d2a33; --violet-deep:#4a4552; --tint:#f3f2f5; --ink:#232027;
+  --muted:#625d69; --line:#e4e2e7; --surface:#ffffff; --field:#c9c6cd; --body:#3a3640; --link-line:#bdb8c3; --on-violet:#d9d6dd; --method:#a8650a; --code:#0d6b63; --data:#1d4f99;
   color:var(--ink);  line-height:1.55; max-width:1080px; margin:0 auto; padding:8px 0 48px;
 }
 #esi-resources *{box-sizing:border-box}
@@ -94,15 +94,15 @@ body{margin:0;background:var(--page);font-family:"Helvetica Neue",Helvetica,Aria
 @media (prefers-reduced-motion:reduce){#esi-resources *{transition:none!important}}
 
 @media (prefers-color-scheme:dark){
-  :root{color-scheme:dark; --page:#17121c; --bar:#3d0563}
+  :root{color-scheme:dark; --page:#151417; --brand:#c79bea; --page-line:#2f2d33}
   #esi-resources{
-    --violet:#c79bea; --violet-deep:#e6d3f5; --tint:#2a2033; --ink:#efe9f3;
-    --muted:#b3a8bd; --line:#3a2f44; --surface:#1f1826; --field:#4a3d56; --body:#ddd4e4; --link-line:#6c4f86; --on-violet:#2a0f40;
-    --method:#c79bea; --code:#5cc7b8; --data:#7fa8ec;
+    --violet:#ebe8ee; --violet-deep:#d6d2db; --tint:#29272d; --ink:#efedf1;
+    --muted:#b0acb6; --line:#34313a; --surface:#1d1b20; --field:#4a4650; --body:#dcd9e0; --link-line:#5c5864; --on-violet:#3a3740;
+    --method:#e3a54d; --code:#5cc7b8; --data:#7fa8ec;
   }
-  #esi-resources .esi-area[aria-pressed="true"]{color:#1a0a28}
-  #esi-resources .esi-area[aria-pressed="true"] .esi-dots i{background:#1a0a28}
-  #esi-resources .esi-type[aria-pressed="true"]{color:#17121c}
+  #esi-resources .esi-area[aria-pressed="true"]{color:#1d1b20}
+  #esi-resources .esi-area[aria-pressed="true"] .esi-dots i{background:#1d1b20}
+  #esi-resources .esi-type[aria-pressed="true"]{color:#151417}
 }
 </style>
 </head>
